@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_marginLeft="5dp"
+            android:hint="Email@email.com"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#bbfcfff6"
+            android:id="@+id/email"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="10"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#bbfcfff6"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/pass"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            android:id="@+id/button"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</LinearLayout>
